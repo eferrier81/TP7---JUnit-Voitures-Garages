@@ -56,6 +56,11 @@ public class Stationnement {
 	 * @return Une chaîne représentant l'état du stationnement, incluant la date d'entrée
 	 *         et soit "en cours" soit la date de sortie.
 	 */
+
+	public Garage getGarage() {
+		return garageVisite;
+	}
+
 	@Override
 	public String toString() {
 		SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyy");
